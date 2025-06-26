@@ -1,21 +1,21 @@
-# 📋 Todo List CLI Application (Java)
+#  Todo List CLI Application (Java)
 
 A simple command-line Todo List app built in Java. It allows users to add, list, remove, complete, and filter tasks by category — all stored in a local JSON file.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ Add new tasks with category
-- 📄 List all tasks
-- 📂 Filter tasks by category
-- ✔️ Mark tasks as completed
-- ❌ Remove tasks by ID
-- 💾 Task persistence using JSON
+- Add new tasks with category
+- List all tasks
+- Filter tasks by category
+- Mark tasks as completed
+- Remove tasks by ID
+- Task persistence using JSON
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 todo-java-cli-final/
@@ -37,7 +37,7 @@ todo-java-cli-final/
 
 ---
 
-## 🧱 Requirements
+## Requirements
 
 - Java 8 or higher
 - `json.jar` (for JSON parsing)
@@ -47,7 +47,7 @@ Place all `.jar` files in the `lib/` directory.
 
 ---
 
-## 🧪 Run the Application
+## Run the Application
 
 ### Compile:
 ```bash
@@ -61,7 +61,7 @@ java -cp ".;bin;lib/json.jar" Main
 
 ---
 
-## 📌 Available CLI Commands
+## Available CLI Commands
 
 | Command         | Description                        |
 |----------------|------------------------------------|
@@ -74,7 +74,7 @@ java -cp ".;bin;lib/json.jar" Main
 
 ---
 
-## ✅ Run Unit Tests
+## Run Unit Tests
 
 ### Compile:
 ```bash
@@ -94,7 +94,7 @@ OK (5 tests)
 
 ---
 
-## 🌱 Seed & Test Data
+## Seed & Test Data
 
 ### Seed Data (`data/tasks.json`)
 ```json
@@ -109,7 +109,7 @@ Automatically created and reset by `TaskManagerTest.java` to ensure isolated and
 
 ---
 
-## 🔧 Future Enhancements
+## Future Enhancements
 
 - Task prioritization and due dates
 - GUI with JavaFX
