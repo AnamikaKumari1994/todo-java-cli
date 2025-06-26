@@ -100,8 +100,24 @@ OK (5 tests)
 ### Seed Data (`data/tasks.json`)
 ```json
 [
-  { "id": 1, "description": "Submit assignment", "category": "School", "status": "Pending" },
-  { "id": 2, "description": "Buy groceries", "category": "Home", "status": "Pending" }
+  {
+    "description": "Buy groceries",
+    "id": 2,
+    "category": "Home",
+    "status": "Completed"
+  },
+  {
+    "description": "homework",
+    "id": 3,
+    "category": "school",
+    "status": "Pending"
+  },
+  {
+    "description": "pay bill",
+    "id": 4,
+    "category": "home",
+    "status": "Pending"
+  }
 ]
 ```
 
@@ -110,12 +126,4 @@ Automatically created and reset by `TaskManagerTest.java` to ensure isolated and
 
 ---
 
-## Future Enhancements
-
-- Task prioritization and due dates
-- GUI with JavaFX
-- Export/import CSV or Excel
-- SQLite integration for scalable storage
-
----
 
