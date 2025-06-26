@@ -48,6 +48,7 @@ Place all `.jar` files in the `lib/` directory.
 ---
 
 ## Run the Application
+Navigate to Capgemini\todo-java-cli-final\
 
 ### Compile:
 ```bash
