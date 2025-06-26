@@ -1,0 +1,20 @@
+[
+  {
+    "description": "Buy groceries",
+    "id": 2,
+    "category": "Home",
+    "status": "Completed"
+  },
+  {
+    "description": "homework",
+    "id": 3,
+    "category": "school",
+    "status": "Pending"
+  },
+  {
+    "description": "pay bill",
+    "id": 4,
+    "category": "home",
+    "status": "Pending"
+  }
+]
